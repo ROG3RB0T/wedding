@@ -20,12 +20,13 @@ const App = () => {
           <Switch>
             <Route exact path='/' component={Homepage} />
             <Route path='/home' component={Homepage} />
-            <Route path='/home2' component={Homepage2} />
+            <Route path='/rsvp' component={Rsvp} />
+            {/* <Route path='/home2' component={Homepage2} />
             <Route path='/home3' component={Homepage3} />
             <Route path='/home4' component={Homepage4} />
             <Route path='/Blog' component={BlogPage} />
             <Route path='/Blog-details' component={BlogDetailsPage} />
-            <Route path='/rsvp' component={Rsvp} />
+             */}
           </Switch>
           <Footer/>
           <Scrollbar/>

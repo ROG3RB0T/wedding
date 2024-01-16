@@ -20,14 +20,14 @@ const Homepage = () => {
            <Navbar/>
            <SimpleSlider/>
            <Saveday/>
-           <Couple/>
+           {/* <Couple/>
            <Welcome/>
            <Story/>
            <People/>
            <Location/>
            <Gallery/>
            <Rsvp/>
-           <Gift/>
+           <Gift/> */}
        </div>
     )
 }

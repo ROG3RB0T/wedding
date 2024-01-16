@@ -4,10 +4,10 @@
 
 .slick-dots li button:before {
     font-size: 14px;
-    color: #649e93;
+    color: #d4af37;
 }
 .slick-dots li.slick-active button:before{
-    color: #649e93;
+    color: #d4af37;
 }
 
 .item1{
@@ -23,9 +23,11 @@
 }
 
 .item2{
-    background: url(../../images/slider/2.jpg);
+    background: url(../../images/slider/4.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
     height: 950px;
-     display: flex!important;
+    display: flex!important;
     justify-content: center;
     flex-direction: column;
     width: 100%;
@@ -43,8 +45,8 @@
 }
 .slide-content {
   text-align: center;
-  background: url(../../images/slider/corazon_1.png);
-  opacity: 0.4;
+  background: url(../../images/slider/hearth_1.png);
+  opacity: 0.75;
   background-size: cover;
   background-repeat: no-repeat;
   width: 540px;
@@ -57,7 +59,7 @@
   margin-top: 51px;
   position: relative;
   z-index: 1;
-  color: #649e93;
+  color: #ffffff !important;
 }
 .animated-circle {
     width: 103%;
@@ -73,14 +75,14 @@
 }
 .slide-content h2{
     font-size: 60px;
-    color: #040404;
+    color: #fcc200;
 }
 .slide-subtitle h4{
  font-size:16px;
- color: #060505;
+ color: #fcc200;
 }
 .slide-text p {
-    color: #040404;
+    color: #fcc200;
     margin-bottom: 0;
 }
 
@@ -91,6 +93,7 @@
     .slide-content {
         width: 280px;
         height: 235px;
+        background-size: contain;
     }
     .item1,.item2{
            height: 580px;
@@ -102,7 +105,7 @@
 .slick-prev, .slick-next {
     width: 50px;
     height: 50px;
-    border: 1px solid #959595;
+    border: 1px solid #fcc200;
     z-index: 10;
     transition: all .3s;
     border-radius: 50%;
@@ -124,7 +127,7 @@
   font-family: "FontAwesome";
   content: "\f104";
   opacity: 1;
-  color: #fff;
+  color: #fcc200;
 }
 
 .slick-next {
@@ -135,12 +138,12 @@
   font-family: "FontAwesome";
   content: "\f105";
   opacity: 1;
-  color: #fff;
+  color: #fcc200;
 }
 
 .slick-prev:hover,
 .slick-next:hover {
-  background: #5e9a8e;
+  background: #fcc200;
   border: none;
 }
 

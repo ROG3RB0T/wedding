@@ -19,7 +19,7 @@ const Homepage2 = () => {
        <div>
            <Navbar/>
            <SimpleSlider2/>
-           <Saveday/>
+           {/* <Saveday/> */}
            <Couple2/>
            <Welcome/>
            <Story/>
