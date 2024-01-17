@@ -10,11 +10,11 @@ class SimpleSlider extends Component {
       var settings = {
         dots: true,
         arrows: true,
-        speed: 1200,
+        speed: 1800,
         slidesToShow: 2,
         slidesToScroll: 1,
         autoplay:true,
-        autoplaySpeed:2500,
+        autoplaySpeed:18000,
         fade:true
       };
       return (
@@ -29,7 +29,7 @@ class SimpleSlider extends Component {
                           <h2>Save Our Date</h2>
                       </div>
                       <div className="slide-text">
-                          <p>24th Febrary 2024</p>
+                          <p>Febrary 24th, 2024</p>
                       </div>
                   </div>
               </div>
@@ -45,7 +45,7 @@ class SimpleSlider extends Component {
                               <h2>Guarda esta Fecha</h2>
                           </div>
                           <div className="slide-text">
-                              <p>24 de Febrero del 2024</p>
+                              <p>24 de Febrero 2024</p>
                           </div>
                       </div>
                     </div>

@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/wedding-invitation');
+
 .slick-dots {
     bottom: 30px;
 }
@@ -76,6 +78,7 @@
 .slide-content h2{
     font-size: 60px;
     color: #fcc200;
+    font-family: 'Wedding Invitation', sans-serif !important;
 }
 .slide-subtitle h4{
  font-size:16px;
@@ -96,7 +99,8 @@
         background-size: contain;
     }
     .item1,.item2{
-           height: 580px;
+           height: 280px;
+           background-size: cover;
     }
 }
 
