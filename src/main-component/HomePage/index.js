@@ -12,15 +12,18 @@ import Rsvp from '../../components/rsvp';
 import Gift from '../../components/gift';
 import Navbar from '../../components/Navbar'
 import Saveday from '../../components/countdown'
-
+import Invitation from '../../components/Invitation/invitation_component'
+import Sectiontitle from '../../components/section-title';
 
 const Homepage = () => {
     return(
        <div>
            <Navbar/>
            <SimpleSlider/>
-           <Saveday/>
-           {/* <Couple/>
+           <Sectiontitle section={'Invitación'}/>
+           <Invitation/>
+           {/* <Saveday/>
+           <Couple/>
            <Welcome/>
            <Story/>
            <People/>
