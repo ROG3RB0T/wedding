@@ -75,17 +75,21 @@
     z-index: -1;
 }
 .slide-content h2{
-    font-size: 60px;
+    font-size: 40px;
     color: #fcc200;
-    font-family: 'Wedding Invitation', sans-serif !important;
+    font-family: 'Sacramento', sans-serif !important;
 }
 .slide-subtitle h4{
- font-size:16px;
+  font-family: 'Sacramento', Arial, Helvetica, sans-serif !important;
+ font-size: 60px;
  color: #fcc200;
+ margin: 30px !important;
 }
 .slide-text p {
-    color: #fcc200;
-    margin-bottom: 0;
+  font-family: 'Montserrat',Arial, Helvetica, sans-serif !important;
+  font-size:18px;
+  color: #fcc200;
+  margin-top:0 !important;
 }
 
 @media(max-width:767px){

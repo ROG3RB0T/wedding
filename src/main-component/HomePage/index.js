@@ -22,6 +22,7 @@ const Homepage = () => {
            <SimpleSlider/>
            <Sectiontitle section={'Invitación'}/>
            <Invitation/>
+           <Sectiontitle section={'Sesión de Fotos'}/>
            {/* <Saveday/>
            <Couple/>
            <Welcome/>

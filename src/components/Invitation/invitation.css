@@ -1,5 +1,191 @@
 
 .invitation-content{
-    margin: 20px;
+    padding: 50px 0;
+    height: 950px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    background-image: url(../../images/Invitation/cielo_abierto.jpeg);
+    background-size: 
+        cover;
+    background-repeat:
+        no-repeat;
+
+}
+.invitation-content::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .5;
+    z-index: -1;
 }
 
+.container, .row, .col-12{
+    height: 100% !important;
+}
+.container::before{
+    content: "";
+    display: table !important;
+}
+
+.container::after{
+    clear: both !important;
+}
+
+.display-t, .display-tc{
+    height: 100%;
+    display: table;
+    width: 100%;
+}
+
+.event-wrap .row{
+    height: 50% !important;
+}
+
+.event-wrap {
+    position:relative;
+  border: 4px solid #b19b48;
+  background-position: 
+    top -240px left -160px,
+    top -240px right -160px,
+    bottom -240px left -120px,
+    bottom -260px right -120px,
+    right;
+    background-repeat: no-repeat, no-repeat,no-repeat;
+    background-size: 
+        35%,
+        35%,
+        30%,
+        30%,
+        cover;
+    background-image: 
+        url('../../images/Invitation/b1fe2db6-e184-47fe-9654-d3ab088f99e1.webp'),
+        url('../../images/Invitation/b1fe2db6-e184-47fe-9654-d3ab088f99e1.webp'),
+        url('../../images/Invitation/b1fe2db6-e184-47fe-9654-d3ab088f99e1.webp'),
+        url('../../images/Invitation/b1fe2db6-e184-47fe-9654-d3ab088f99e1.webp'),
+        url('../../images/Invitation/background-paper.jpeg');
+  /* background: right no-repeat url("../../images/section-title-swirl-right.png"),
+  rgba(255, 255, 255, 0.1) no-repeat url("../../images/section-title-swirl-left.png");  */
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+.event-wrap::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(118, 178, 238, 0.444);
+    z-index: -1;
+     
+}
+@media screen and (max-width: 768px) {
+    .event-wrap {
+    margin-bottom: 10px;
+  }
+}
+.event-wrap h3 {
+    font-family: 'Sacramento', Arial, serif !important;
+    font-size: 35px;
+    color: #b19b48;
+    border-bottom: 1px solid #b19b48;
+    display: block;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.event-wrap i {
+  color: #152562;
+  font-size: 20px;
+}
+
+.event-wrap .row{
+    margin-left: 30%;
+}
+.event-wrap .event-col {
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+.event-col p,
+.event-col span {
+    align-items: center;
+    justify-content:stretch;
+    display: block;
+    color: #152562;
+}
+
+
+
+.event-intro{
+    position:absolute;
+    top: 5%;
+    left: 16%;
+    width: 65%;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 100%;
+    color: #000;
+    margin-bottom: 0 !important;
+}
+.event-intro span{
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 18px;
+    font-style: normal !important;
+}
+
+.event-bride{
+    position: absolute;
+    top: 25%;
+    left: 29%;
+    font-family: 'Great Vibes',Arial, serif !important;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+    color: #f3e3ad;
+    width: 25%;
+    background-image: linear-gradient(90deg, #fcc200 20%, #b19b48 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.event-icon{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../images/Invitation/icon_1.webp');
+    background-size: 15%;
+    background-repeat: no-repeat;
+    
+}
+
+.event-man{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    font-family: 'Great Vibes',Arial, serif !important;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    color: #f3e3ad;
+    width: 25%;
+    background-image: linear-gradient(90deg,  #b19b48 20%,#fcc200 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}

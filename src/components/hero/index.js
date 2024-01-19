@@ -23,13 +23,13 @@ class SimpleSlider extends Component {
               <div className="container">
                   <div className="slide-content">
                       <div className="slide-subtitle">
-                          <h4>WERE GETTING MARRIED</h4>
+                          <h4>We're getting married!</h4>
                       </div>
                       <div className="slide-title">
-                          <h2>Save Our Date</h2>
+                          <h2>Save our date:</h2>
                       </div>
                       <div className="slide-text">
-                          <p>Febrary 24th, 2024</p>
+                          <p>February 24th, 2024</p>
                       </div>
                   </div>
               </div>
@@ -39,10 +39,10 @@ class SimpleSlider extends Component {
                 <div className="container">
                       <div className="slide-content">
                           <div className="slide-subtitle">
-                              <h4>NOS CASAREMOS</h4>
+                              <h4>¡Nos vamos a casar!</h4>
                           </div>
                           <div className="slide-title">
-                              <h2>Guarda esta Fecha</h2>
+                              <h2>Guarda esta fecha:</h2>
                           </div>
                           <div className="slide-text">
                               <p>24 de Febrero 2024</p>
