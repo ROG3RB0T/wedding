@@ -48,35 +48,14 @@
 
 .event-wrap {
     position:relative;
-  border: 4px solid #b19b48;
-  background-position: 
-    top -240px left -160px,
-    top -240px right -160px,
-    bottom -240px left -120px,
-    bottom -260px right -120px,
-    right;
-    background-repeat: no-repeat, no-repeat,no-repeat;
-    background-size: 
-        35%,
-        35%,
-        30%,
-        30%,
-        cover;
-    background-image: 
-        url('../../images/Invitation/b1fe2db6-e184-47fe-9654-d3ab088f99e1.webp'),
-        url('../../images/Invitation/b1fe2db6-e184-47fe-9654-d3ab088f99e1.webp'),
-        url('../../images/Invitation/b1fe2db6-e184-47fe-9654-d3ab088f99e1.webp'),
-        url('../../images/Invitation/b1fe2db6-e184-47fe-9654-d3ab088f99e1.webp'),
-        url('../../images/Invitation/background-paper.jpeg');
-  /* background: right no-repeat url("../../images/section-title-swirl-right.png"),
-  rgba(255, 255, 255, 0.1) no-repeat url("../../images/section-title-swirl-left.png");  */
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  border-radius: 4px;
+    background-position: 
+    top 0 left 50%;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-image: url('../../images/Invitation/invite-card.jpeg');
+    width: 100%;
+    height: 100%;
+
 }
 .event-wrap::before{
     content: "";
@@ -85,13 +64,19 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(118, 178, 238, 0.444);
+    background: rgba(255, 255, 255, 0.1);
     z-index: -1;
      
 }
 @media screen and (max-width: 768px) {
     .event-wrap {
-    margin-bottom: 10px;
+        background-position: 
+        top 50% left 0;
+        height: 100%;
+  }
+  .invitation-content{
+    height: 750px;
+    padding: 0;
   }
 }
 .event-wrap h3 {
