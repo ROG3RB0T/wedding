@@ -23,6 +23,7 @@ const Homepage = () => {
            <Sectiontitle section={'Invitación'}/>
            <Invitation/>
            <Sectiontitle section={'Sesión de Fotos'}/>
+           <Gallery />
            {/* <Saveday/>
            <Couple/>
            <Welcome/>
