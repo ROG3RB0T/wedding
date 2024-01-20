@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9d648170.chunk.css",
+    "main.js": "/static/js/main.d7af52db.chunk.js",
+    "main.js.map": "/static/js/main.d7af52db.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.88c2143d.js",
+    "runtime~main.js.map": "/static/js/runtime~main.88c2143d.js.map",
+    "static/css/2.467c85df.chunk.css": "/static/css/2.467c85df.chunk.css",
+    "static/js/2.10785bbf.chunk.js": "/static/js/2.10785bbf.chunk.js",
+    "static/js/2.10785bbf.chunk.js.map": "/static/js/2.10785bbf.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a3e8be7c05c278fa5e9a7ffd2d675cac.js": "/precache-manifest.a3e8be7c05c278fa5e9a7ffd2d675cac.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.467c85df.chunk.css.map": "/static/css/2.467c85df.chunk.css.map",
+    "static/css/main.9d648170.chunk.css.map": "/static/css/main.9d648170.chunk.css.map",
+    "static/media/style.css": "/static/media/hearth_1.33973200.png",
+    "static/media/App.css": "/static/media/Amsterdam-eZvPB.6ca6b7c5.woff",
+    "static/media/flaticon.css": "/static/media/Flaticon.b9b714e8.eot",
+    "static/media/invitation.css": "/static/media/icon_1.ca2b84dd.webp",
+    "static/media/close.svg": "/static/media/close.123b7d37.svg",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg"
+  }
+}
