@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6bde6b7edcad196a2f2f7fe6cf79400",
+    "revision": "e71b27983c42bdc90f2db77d1ec70c3f",
     "url": "/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.467c85df.chunk.css"
   },
   {
-    "revision": "bb2555e92d00c8600160",
-    "url": "/static/css/main.9d648170.chunk.css"
+    "revision": "71ed2e79cd397966cec1",
+    "url": "/static/css/main.e5ea2f1c.chunk.css"
   },
   {
     "revision": "a5ba004e79934fa72af9",
     "url": "/static/js/2.10785bbf.chunk.js"
   },
   {
-    "revision": "bb2555e92d00c8600160",
-    "url": "/static/js/main.d7af52db.chunk.js"
+    "revision": "71ed2e79cd397966cec1",
+    "url": "/static/js/main.0474fc45.chunk.js"
   },
   {
     "revision": "c5be262d17ba7045c3d3",
@@ -64,14 +64,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Flaticon.b9b714e8.eot"
   },
   {
-    "revision": "590f17ec01bff4901c9e4c102414c2e1",
-    "url": "/static/media/b1fe2db6-e184-47fe-9654-d3ab088f99e1.590f17ec.webp"
-  },
-  {
-    "revision": "4f76942ef0c63f3bd5d271dd913f49d0",
-    "url": "/static/media/background-paper.4f76942e.jpeg"
-  },
-  {
     "revision": "aa9cd807e9ef6bf521f7f1245212677e",
     "url": "/static/media/cielo_abierto.aa9cd807.jpeg"
   },
@@ -106,6 +98,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ca2b84dd319246532d9eed50d2beb494",
     "url": "/static/media/icon_1.ca2b84dd.webp"
+  },
+  {
+    "revision": "076fd9ae1cddd2fd2738d53c4d5ef219",
+    "url": "/static/media/invite-card.076fd9ae.jpeg"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
