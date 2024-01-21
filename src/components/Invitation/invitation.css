@@ -1,27 +1,11 @@
 
 .invitation-content{
-    padding: 50px 0;
     height: 950px;
     width: 100%;
     position: relative;
     z-index: 1;
-    background-image: url(../../images/Invitation/cielo_abierto.jpeg);
-    background-size: 
-        cover;
-    background-repeat:
-        no-repeat;
+    background-color: rgba(176,196,222,0.5);
 
-}
-.invitation-content::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    opacity: .5;
-    z-index: -1;
 }
 
 .container, .row, .col-12{
@@ -55,7 +39,6 @@
     background-image: url('../../images/Invitation/invite-card.jpeg');
     width: 100%;
     height: 100%;
-
 }
 .event-wrap::before{
     content: "";
@@ -75,8 +58,7 @@
         height: 100%;
   }
   .invitation-content{
-    height: 750px;
-    padding: 0;
+    height: 600px;
   }
 }
 .event-wrap h3 {
