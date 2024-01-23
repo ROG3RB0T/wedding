@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Switch, Route,useParams } from 'react-router-do
 import Homepage from '../HomePage'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
-import Rsvp from '../../components/rsvp'
+
 
 import './App.css';
 
