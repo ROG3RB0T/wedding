@@ -107,8 +107,8 @@
       font-size: 30px;
     }
     .item1,.item2{
-           height: 280px;
-           background-size: cover;
+      height: 280px;
+      background-size: cover;
     }
 }
 @media only screen and (max-width:992px){
@@ -128,6 +128,7 @@
   .item1,.item2{
          height: 480px;
          background-size: cover;
+         background-position: 60% 100%;
   }
 }
 
