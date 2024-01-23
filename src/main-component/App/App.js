@@ -1,26 +1,18 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route,useParams } from 'react-router-dom'
 import Homepage from '../HomePage'
-import Homepage2 from '../HomePage2'
-import Homepage3 from '../HomePage3'
-import Homepage4 from '../HomePage4'
-import BlogPage from '../blogpage'
-import BlogDetailsPage from '../BlogDetailsPage'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Rsvp from '../../components/rsvp'
+
 import './App.css';
 
-
 const App = () => { 
-
   return (
     <div className="App">
        <Router>
           <Switch>
-            <Route exact path='/' component={Homepage} />
-            <Route path='/home' component={Homepage} />
-            <Route path='/rsvp' component={Rsvp} />
+            <Route path='/home/:id' component={Homepage} />
             {/* <Route path='/home2' component={Homepage2} />
             <Route path='/home3' component={Homepage3} />
             <Route path='/home4' component={Homepage4} />
