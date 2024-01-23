@@ -14,15 +14,19 @@ import Navbar from '../../components/Navbar'
 import Saveday from '../../components/countdown'
 import Invitation from '../../components/Invitation/invitation_component'
 import Sectiontitle from '../../components/section-title';
+import { Data } from '../../resoruces/list';
 
 const Homepage = () => {
     return(
        <div>
            <Navbar/>
            <SimpleSlider/>
-           <Sectiontitle section={'Invitación'}/>
            <Invitation/>
-           <Sectiontitle section={'Sesión de Fotos'}/>
+           <Sectiontitle section={'Sé nuestro invitado'}/>
+           <Rsvp />
+           <Sectiontitle section={'Ubicación'} />
+           <Location/>
+           <Sectiontitle section={'Sesión de fotos'}/>
            <Gallery />
            {/* <Saveday/>
            <Couple/>
