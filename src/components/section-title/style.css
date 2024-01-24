@@ -1,5 +1,5 @@
 .section-title h2 {
-    font-size: 60px;
+    font-size: 28px !important;
     font-family: 'Sacramento', Arial, serif;
     /* font-family: 'Wedding Invitation', sans-serif !important; */
     color: #b18b49;
@@ -29,9 +29,9 @@
 } 
 
 
-@media(max-width:767px){
+@media screen and (min-width:767px){
     .section-title h2 {
-        font-size: 30px;
+        font-size: 60px !important;
     }
      .swirl-left, .swirl-right{
         background-size: 40%;

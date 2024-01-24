@@ -12,13 +12,21 @@
 .gallery-img {
     cursor: pointer;
     margin-bottom: 5px;
-    overflow: hidden;
+    overflow:hidden;
     width: 128px;
     height: 128px;
 }
 
+.img-center{
+    margin-left: 30%;
+}
+
+.image-box{
+    width: 340px;
+    z-index: 1200;
+}
 .image-box img{
-    object-fit: cover;
+    object-fit:cover;
 }
 .gallery-img img {
     -webkit-transition: all 0.5s;

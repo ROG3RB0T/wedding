@@ -1,36 +1,51 @@
-.rsvp-wrap {
-    /* background: rgba(0,48,143,0.7); */
+.rsvp-area{
+    background: #fdf5e6;
+}
+.rsvp-area{
+    margin-left: 2%;
+    width: 96%;
 }
 
 .rsvp-wrap .section-title{
     text-align: center;
     width: 100%;
     margin-top: 2px;
-    padding: 10px;
     margin-bottom: 2px;
-    background: rgba(0,48,143,0.9);
+    color: #0f4780;
+    background: none !important;
+    border: #b19b48 solid 2px;
+    border-radius: 12px;
+}
+.rsvp-wrap .btn-success{
+    background-color: #0f4780 !important;
+    border: #fcc200 solid 2px;
+}
+
+.rsvp-wrap .section-title a{
     color: white;
 }
-.section-title a{
-    color: white;
-}
-.section-title a:visited{
+.rsvp-wrap .section-title a:visited{
     color:white
 }
 
-.section-title::before{
-    content: "";
-    position:absolute;
-    border: 1px solid #fcc200;
-
-}
-
 .rsvp-wrap .section-title h2{
-    margin-bottom: 0;
-    padding-bottom: 0px;
+    margin-bottom: 0 !important;
+    padding-bottom: 0px !important;
 }
 
-.rsvp-wrap .section-title h2:before{
-   display: none;
+
+@media screen and (min-width:480px){
+    
 }
 
+@media screen and (min-width:767px){
+    .rsvp-area{
+        max-width:none !important;
+        margin: 0;
+        width: 100% !important;
+    }
+
+    .rsvp-wrap{
+        width: 100%;
+    }
+}

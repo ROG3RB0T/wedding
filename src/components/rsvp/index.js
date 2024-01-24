@@ -6,15 +6,12 @@ import './style.css'
 const Rsvp = () => {
     const { id } = useParams();
     const GuestRsvp = {id};
-    console.log(GuestRsvp.id);
     const filterObject = Data.filter(item => item.id === GuestRsvp.id);
-    console.log(filterObject.length);
     return (
-            <div id="rsvp" className="rsvp-area go-rsvp-area">
+            <div id="rsvp" className="rsvp-area">
                 <div className="container">
                     <div className="row">
                             <div className="rsvp-wrap">
-                                
                                     <div className="section-title section-title4 text-center">
                                         {filterObject.map((obj,index) =>
                                         (
