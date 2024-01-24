@@ -12,13 +12,17 @@
 .gallery-img {
     cursor: pointer;
     margin-bottom: 5px;
-    overflow: hidden;
-    width: 128px;
+    overflow:hidden;
+    width: 150px;
     height: 128px;
 }
 
+.image-box{
+    width: 340px;
+    z-index: 1200;
+}
 .image-box img{
-    object-fit: cover;
+    object-fit:cover;
 }
 .gallery-img img {
     -webkit-transition: all 0.5s;
@@ -36,4 +40,43 @@
 
 .gallery-img:hover .image-box img{
  transform: none;
+}
+
+@media screen and (min-width:480px) {
+    .gallery-img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .image-box{
+        width: 640px;
+        z-index: 1200;
+    }
+    
+}
+
+@media screen and (min-width:767px) {
+    .gallery-img {
+        width: 220px;
+        height: 180px;
+    }
+    
+    .image-box{
+        width: 640px;
+        z-index: 1200;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+    .gallery-img {
+        width: 280px;
+        height: 280px;
+    }
+    
+    .image-box{
+        width: 640px;
+        z-index: 1200;
+    }
+    
 }

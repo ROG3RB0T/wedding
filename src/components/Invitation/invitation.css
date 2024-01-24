@@ -1,11 +1,10 @@
 
 .invitation-content{
-    height: 950px;
+    height: 560px;
     width: 100%;
     position: relative;
     z-index: 1;
-    background-color: rgba(176,196,222,0.5);
-
+    background-color: rgba(176,196,222,1);
 }
 
 .container, .row, .col-12{
@@ -26,17 +25,13 @@
     width: 100%;
 }
 
-.event-wrap .row{
-    height: 50% !important;
-}
-
 .event-wrap {
     position:relative;
-    background-position: 
-    top 0 left 50%;
     background-repeat: no-repeat;
     background-size:contain;
-    background-image: url('../../images/Invitation/invite-card.jpeg');
+    background-image: url('../../images/Invitation/2024-01-23.jpg');
+    background-position-x: 
+        50%;
     width: 100%;
     height: 100%;
 }
@@ -49,17 +44,6 @@
     height: 100%;
     background: rgba(255, 255, 255, 0.1);
     z-index: -1;
-     
-}
-@media screen and (max-width: 768px) {
-    .event-wrap {
-        background-position: 
-        top 50% left 0;
-        height: 100%;
-  }
-  .invitation-content{
-    height: 600px;
-  }
 }
 .event-wrap h3 {
     font-family: 'Sacramento', Arial, serif !important;
@@ -198,4 +182,38 @@
     font-variant: small-caps;
     line-height: normal;
     
+}
+
+@media screen and (min-width: 480px) {
+    .event-wrap {
+        background-size: contain;
+        background-position: 
+        top 50% left 50%;
+        height: 100%;
+  }
+  .invitation-content{
+    height: 580px;
+  }
+}
+@media screen and (min-width: 767px) {
+    .event-wrap {
+        background-size: contain;
+        background-position: 
+        top 50% left 50%;
+        height: 100%;
+  }
+  .invitation-content{
+    height: 680px;
+  }
+}
+@media screen and (min-width: 1024px) {
+    .event-wrap {
+        background-size: contain;
+        background-position: 
+        top 50% left 50%;
+        height: 100%;
+  }
+  .invitation-content{
+    height: 920px;
+  }
 }

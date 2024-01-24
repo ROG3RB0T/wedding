@@ -13,7 +13,7 @@ const Header = () => {
             <div className="header">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-3 col-10">
+                        <div className="col-lg-12 col-10">
                             <div className="logo">
                                 <h2><Link to='/home'>Boda Menjivar Castro<span><i className='fa fa-heart'></i></span></Link></h2>
                             </div>

@@ -1,5 +1,5 @@
 export const Data = [
-    {'id':'1','nombreInvitacion':'Esposos Castro Platero','reserva':2},
+{'id':'1','nombreInvitacion':'Esposos Castro Platero','reserva':2},
 {'id':'2','nombreInvitacion':'Guillermo Menjívar','reserva':2},
 {'id':'3','nombreInvitacion':'Matilde Menjívar','reserva':'1'},
 {'id':'4','nombreInvitacion':'Rodrigo Castro','reserva':'1'},
