@@ -1,4 +1,16 @@
 
+.slide-content h4 {
+  font-size: 34px;
+  margin: 0 !important;
+  color: #fcc200;
+  font-family: 'Sacramento', sans-serif !important;
+}
+
+.slide-title h2{
+  font-size: 34px;
+  font-family: 'Sacramento', Arial, Helvetica, sans-serif !important;
+  color: #fcc200;
+}
 .slick-dots {
     bottom: 30px;
 }
@@ -11,30 +23,40 @@
     color: #d4af37;
 }
 
+.animated-circle {
+  width: 103%;
+  height: 103%;
+  background: rgba(178,201,211,.3);
+  border-radius: 50%;
+  position: absolute;
+  left: -1.5%;
+  top: -1.5%;
+  -webkit-animation: pulse 1s infinite;
+  animation: pulse 1s infinite;
+  z-index: -1;
+}
+
 .item1{
-    background: url(../../images/slider/1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 950px;
-    display: flex!important;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    position: relative;
+  background: url(../../images/slider/mobile_1.png);
 }
 
 .item2{
-    background: url(../../images/slider/4.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    height: 950px;
-    display: flex!important;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    position: relative;
+    background: url(../../images/slider/mobile_4.png);
+    background-position: -360px;
 }
-.item1:before,.item2:before{
+
+.item1,.item2{
+  height: 720px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex!important;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.item1::before,.item2::before{
   content: "";
   position: absolute;
   left: 0;
@@ -44,47 +66,27 @@
   background: #000;
   opacity: 0.5;
 }
+
 .slide-content {
   text-align: center;
   background: url(../../images/slider/hearth_1.png);
   opacity: 0.75;
-  background-size: cover;
   background-repeat: no-repeat;
-  width: 540px;
-  height: 460px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   margin: auto;
-  margin-top: 180px;
   position: relative;
   z-index: 1;
   color: #ffffff !important;
+  margin-top: 60%;
+  width: 350px;
+  height: 300px;
+  background-size: cover;
+  
 }
-.animated-circle {
-    width: 103%;
-    height: 103%;
-    background: rgba(178,201,211,.3);
-    border-radius: 50%;
-    position: absolute;
-    left: -1.5%;
-    top: -1.5%;
-    -webkit-animation: pulse 1s infinite;
-    animation: pulse 1s infinite;
-    z-index: -1;
-}
-.slide-content h2{
-    font-size: 40px;
-    color: #fcc200;
-    font-family: 'Sacramento', sans-serif !important;
-}
-.slide-subtitle h4{
-  font-family: 'Sacramento', Arial, Helvetica, sans-serif !important;
- font-size: 60px;
- color: #fcc200;
- margin: 30px !important;
-}
+
 .slide-text p {
   font-family: 'Montserrat',Arial, Helvetica, sans-serif !important;
   font-size:18px;
@@ -92,47 +94,37 @@
   margin-top:0 !important;
 }
 
-@media only screen and (max-width:767px){
-    .slide-content h4 {
-        font-size: 30px;
-        margin: 0 !important;
+@media only screen and (min-width:767px){
+    .slide-content h2{
+      font-size: 40px;
     }
-    .slide-content {
-        margin-top: 55px;
-        width: 280px;
-        height: 235px;
-        background-size: contain;
+    .slide-subtitle h4{
+      font-size: 60px;
+      margin: 30px !important;
     }
-    .slide-title h2{
-      font-size: 30px;
+
+    .slide-content{
+      margin-top: 180px;
+      width: 540px;
+      height: 460px;
+      background-size: cover;
     }
+    
+    .item1{
+      background: url('../../images/slider/1.jpg');
+      
+    }
+    .item2{
+      background: url('../../images/slider/4.jpg');
+      
+    }
+
     .item1,.item2{
-      height: 280px;
+      height: 950px;
+      background-repeat: no-repeat;
       background-size: cover;
     }
 }
-@media only screen and (max-width:992px){
-  .slide-content h4 {
-      font-size: 30px;
-      margin: 0 !important;
-  }
-  .slide-content {
-      margin-top: 55px;
-      width: 380px;
-      height: 335px;
-      background-size: contain;
-  }
-  .slide-title h2{
-    font-size: 30px;
-  }
-  .item1,.item2{
-         height: 480px;
-         background-size: cover;
-         background-position: 60% 100%;
-  }
-}
-
-
 
 .slick-prev, .slick-next {
     width: 50px;
@@ -184,13 +176,6 @@
   color: #fff;
 }
 
-@media (max-width:767px) {
-    .slick-prev, .slick-next{
-        display: none!important;
-    }
-}
-
-
 
 @-webkit-keyframes pulse {
     from {
@@ -225,8 +210,6 @@
       transform: scale3d(1, 1, 1);
     }
   }
-
-
 
   .particaleWrapper {
     position: absolute;
