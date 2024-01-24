@@ -1,8 +1,4 @@
 import React from 'react'
-
-import strory1 from '../../images/Invitation/cielo_abierto.jpeg'
-
-
 import './style.css'
 
 const Location = () => {
