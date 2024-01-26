@@ -65,7 +65,8 @@ export const Data = [
 {'id':'64','nombreInvitacion':'Vicky Martinez','reserva':'3'},
 {'id':'65','nombreInvitacion':'Esposos Menjívar','reserva':'2'},
 {'id':'66','nombreInvitacion':'Esposos Estrada','reserva':'2'},
-{'id':'67','nombreInvitacion':'Esposos Sánchez Rodriguez','reserva':'2'}
+{'id':'67','nombreInvitacion':'Esposos Sánchez Rodriguez','reserva':'2'},
+{'id':'68','nombreInvitacion':'Esposos Avilés Castillo','reserva':'2'}
 ]
 
 
