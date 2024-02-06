@@ -49,7 +49,7 @@ export const Data = [
 {'id':'48','nombreInvitacion':'Ernesto Pleitez','reserva':'2'},
 {'id':'49','nombreInvitacion':'Esposos Morales','reserva':'2'},
 {'id':'50','nombreInvitacion':'Sulay Mejía','reserva':'1'},
-{'id':'51','nombreInvitacion':'Kevin Álvarez','reserva':'1'},
+{'id':'51','nombreInvitacion':'Kevin Álvarez','reserva':'2'},
 {'id':'52','nombreInvitacion':'Adrian Miranda','reserva':'1'},
 {'id':'53','nombreInvitacion':'Esposos Barahona Hernández','reserva':'2'},
 {'id':'54','nombreInvitacion':'Esposos Merino Villalta','reserva':'2'},
@@ -66,8 +66,6 @@ export const Data = [
 {'id':'65','nombreInvitacion':'Esposos Menjívar','reserva':'2'},
 {'id':'66','nombreInvitacion':'Esposos Estrada','reserva':'2'},
 {'id':'67','nombreInvitacion':'Esposos Sánchez Rodriguez','reserva':'2'},
-{'id':'68','nombreInvitacion':'Esposos Avilés Castillo','reserva':'2'}
+{'id':'68','nombreInvitacion':'Esposos Avilés Castillo','reserva':'2'},
+{'id':'69','nombreInvitacion':'Ulises Roble','reserva':'1'},
 ]
-
-
-
