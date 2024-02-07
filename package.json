@@ -10,6 +10,7 @@
     "react-animated-css": "^1.2.1",
     "react-countdown-now": "^2.1.2",
     "react-dom": "^16.12.0",
+    "eslint": "^6.1.0",
     "react-fancybox": "^0.2.5",
     "react-fontawesome": "^1.7.1",
     "react-owl-carousel": "^2.3.1",
